@@ -29,3 +29,4 @@ conan install . -g graph3d --build=missing
 
 A *conan-graph3d.html* file is generated. Open to see the graph.
 
+![Conan graph 3D](graph.png?raw=true)
