@@ -3,6 +3,8 @@
 This [Conan generator](https://docs.conan.io/en/latest/howtos/custom_generators.html) will generate a
 html file with a 3d visualization for the dependency graph.
 
+![Conan graph 3D](graph.png?raw=true)
+
 # To install the generator:
 
 ``` bash
@@ -28,5 +30,3 @@ conan install . -g graph3d --build=missing
 
 
 A *conan-graph3d.html* file is generated. Open to see the graph.
-
-![Conan graph 3D](graph.png?raw=true)
